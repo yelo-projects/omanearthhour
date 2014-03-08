@@ -1,0 +1,45 @@
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabicnaskh.css);
+@import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
+html[lang=en] .languages .language-ar{display:none;}
+html[lang=ar] .languages .language-en{display:none;}
+.language-ar{font-family: 'Droid Arabic Naskh', serif;}
+h1 .language-ar,
+h2 .language-ar,
+h3 .language-ar,
+h4 .language-ar,
+h5 .language-ar,
+h6 .language-ar{font-family: 'Droid Arabic Kufi', serif;line-height:1.2;}
+body {padding-top:0px;padding-bottom: 0px;}
+#Language-Chooser{display:inline-block;}
+#Footer a i,
+#Form-Chooser,
+#Thanks{font-size:150%;}
+#Footer{margin-bottom:0;}
+#Footer a{display:inline-block;}
+#Footer a i{margin-right:5px;}
+#Footer a:hover{color:white;text-decoration: none;}
+#Footer .container-fluid{margin-top:10px;}
+.container-fluid{margin-right: auto;margin-left: auto;max-width: 1000px;}
+.hero-unit.texts{background:#50abe3;color:#FFF;}
+.partner{height:60px;width:auto;margin:5px;background:white;-webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .5);box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .5);}
+.main-partner{height:120px;}
+.bigLogo{float:left;margin-right:10px;}
+.hidden{display:none;}
+html[lang=ar] .bigLogo{float:right;margin-right:0;margin-left:10px;}
+html[lang=ar] #recaptcha_response_field{right:0;}
+/* Large desktop */
+@media (min-width: 1200px) {
+	.container-fluid{max-width:1000px;}
+}
+/* Portrait tablet to landscape and desktop */
+@media (min-width: 768px) and (max-width: 979px) {
+	.container-fluid{max-width:700px;}
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 767px) {
+	.container-fluid{max-width:700px;}
+}
+/* Landscape phones and down */
+@media (max-width: 480px) {
+	.container-fluid{max-width:480px;}
+}
