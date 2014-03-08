@@ -21,10 +21,11 @@ body {padding-top:0px;padding-bottom: 0px;}
 #Footer .container-fluid{margin-top:10px;}
 .container-fluid{margin-right: auto;margin-left: auto;max-width: 1000px;}
 .navbar-inner, .navbar .navbar-text,
+.navbar-inverse .navbar-inner,
 .hero-unit.texts,
 .btn-success, .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .btn-success.disabled, .btn-success[disabled],
 .btn-primary, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .btn-primary.disabled, .btn-primary[disabled]
-{background:#110d0c;color:#FFF;}
+{background:#110d0c;color:#FFF;border: none;}
 .partner{height:60px;width:auto;margin:5px;background:white;-webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .5);box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, .5);}
 .main-partner{height:120px;}
 .bigLogo{float:left;margin-right:10px;}
