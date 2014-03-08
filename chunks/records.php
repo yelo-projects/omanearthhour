@@ -1,4 +1,4 @@
-<?php if($records):?>
+<?php if(count($records)):?>
 	<table class="table">
 		<thead>
 			<tr>
